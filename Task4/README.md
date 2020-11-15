@@ -1,0 +1,1 @@
+Moved test data to 'tests\input_data'. After running test output data of upper_case_file.py should be inside 'tests\output_data' directory.

@@ -1,0 +1,1 @@
+Added a comment to the part of the script that has an error in it, which cause the print funtion to not work properly
