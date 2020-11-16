@@ -1,5 +1,5 @@
 import os
-import time
+
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
@@ -73,5 +73,6 @@ if __name__ == '__main__':
     elementsToHighlight.append(getTextElementOfRow(rowText="Iuvaret7"))
     for element in elementsToHighlight:
         highlightElement(element)
-        time.sleep(2)
+        driver.implicitly_wait(2)
     clickGreenButton()
+    driver.quit()
