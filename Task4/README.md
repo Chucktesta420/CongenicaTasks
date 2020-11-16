@@ -1,1 +1,1 @@
-Moved test data to 'tests\input_data'. After running test output data of upper_case_file.py should be inside 'tests\output_data' directory.
+Moved test data to 'tests\input_data'. After running test output data of upper_case_file.py should be inside 'tests\output_data' directory. If adding more inputs, they should have the word "input" in it (e. g. betty.input.txt or betty (input).txt)
